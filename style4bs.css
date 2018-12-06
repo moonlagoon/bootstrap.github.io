@@ -1,0 +1,80 @@
+body  {
+    background-color: pink;
+    background: url(galaxybs.png) repeat-y top center;
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header  {
+   color: white;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    padding: 10px 0;
+}
+
+nav  {
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: plum;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(117, 101, 189);
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.container4 {
+    padding-left: 120px;
+    padding-top: 100px;
+    align-content: center;
+}
+
+
