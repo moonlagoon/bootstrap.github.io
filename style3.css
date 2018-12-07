@@ -60,7 +60,7 @@ nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: rgb(117, 101, 189);
+    background-color: rgb(120, 102, 199);
     position: absolute;
     top: 0;
     width: 0%;
