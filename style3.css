@@ -83,6 +83,6 @@ nav a:hover::before {
     font-size: 22px;
 }
 
-.container3 .row {
+.container3 .row { 
     padding: 20px;
 }
